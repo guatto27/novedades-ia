@@ -11,9 +11,33 @@
    · fuente: enlace oficial, o "" si no hay.
    · El orden no importa: se acomodan solas por fecha (la más nueva primero).
    ════════════════════════════════════════════════════════════════ */
-const ACTUALIZADO = "2026-11-05";   // fecha de la última actualización (AAAA-MM-DD)
+const ACTUALIZADO = "2026-11-06";   // fecha de la última actualización (AAAA-MM-DD)
 
 const NOVEDADES = [
+  {
+    fecha: "2026-11-05",
+    empresa: "Anthropic",
+    titulo: "Claude Personal Finance: conecta tu banco y pregunta por tu dinero",
+    resumen: "Anthropic lanzó en beta Personal Finance en Claude: en EE. UU., con planes Pro, Max y Ultra puedes conectar cuentas de banco, tarjeta, préstamo e inversión (vía Plaid) y preguntar por saldos y gastos. Es solo lectura: no mueve ni invierte dinero, no da consejos de inversión y esas conversaciones no entrenan el modelo.",
+    importa: "Tú usas Claude Max y Capella/Aldebarán te ayudan con finanzas. Hoy la función solo está en EE. UU., así que en México aún no la verás; cuando llegue aquí podrías revisar gastos con Claude sin abrir cada app del banco.",
+    fuente: "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+  },
+  {
+    fecha: "2026-11-05",
+    empresa: "Meta",
+    titulo: "Muse ya habla en tiempo real con avatar expresivo en EE. UU.",
+    resumen: "Meta activó en la app Muse (móvil, web y Mac) conversaciones por voz en tiempo real con un avatar que gesticula mientras habla. Puedes interrumpir, elegir entre cientos de voces y usar solo audio o ver el avatar. Empieza en EE. UU.; después llegará a lentes AI y Muse Charm.",
+    importa: "No es Claude ni Gemini, pero muestra cómo Meta empuja agentes con voz y cara. Si algún día pruebas Muse o comparas asistentes de voz para trabajo o práctica de oratoria, ya hay una opción con avatar en vivo.",
+    fuente: "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"
+  },
+  {
+    fecha: "2026-11-03",
+    empresa: "Microsoft",
+    titulo: "Microsoft retira Claude y Grok de Copilot Studio el 2 de diciembre",
+    resumen: "Microsoft avisó que el 2 de diciembre de 2026 dejará de ofrecer Claude Sonnet 4.6, Claude Opus 4.6 y Grok 4.1 Fast reasoning en prompts de Copilot Studio, Power Automate y Power Apps. Los prompts que los usen pasarán solos a ChatGPT-latest o GPT-6 Reasoning según el nivel, sin cambiar el precio del nivel.",
+    importa: "Si armaste flujos o agentes en Power Platform con Claude, el 2 de diciembre cambiarán de modelo solos y las respuestas pueden variar. Conviene probarlos antes con el reemplazo. Tu Claude Max y Claude Code no se tocan: esto solo afecta el ecosistema Microsoft.",
+    fuente: "https://mc.merill.net/message/MC1536101"
+  },
   {
     fecha: "2026-11-05",
     empresa: "Google",
