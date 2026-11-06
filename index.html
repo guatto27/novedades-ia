@@ -15,6 +15,22 @@ const ACTUALIZADO = "2026-11-06";   // fecha de la última actualización (AAAA-
 
 const NOVEDADES = [
   {
+    fecha: "2026-11-06",
+    empresa: "Anthropic",
+    titulo: "Claude Code 2.1.319: las tareas MCP corren en segundo plano",
+    resumen: "Anthropic publicó Claude Code 2.1.319: cuando un servidor MCP lanza una herramienta larga, Claude Code la manda al fondo y te avisa al terminar; también puedes reabrir subagentes terminados desde /tasks y hay un ajuste para denegar permisos sin preguntar (permissions.denyInsteadOfPrompting).",
+    importa: "Tú usas Claude Code con conectores MCP en PIGOP y en el box: las llamadas largas ya no te bloquean la conversación, y puedes retomar un subagente que ya terminó. Actualiza con la versión 2.1.319 o superior (claude --version).",
+    fuente: "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
+  },
+  {
+    fecha: "2026-11-05",
+    empresa: "Otra",
+    titulo: "Cursor ya construye y publica apps web en vivo con un enlace",
+    resumen: "Cursor lanzó Build Live Apps: con un cloud agent puedes pedir una app, y Cursor la arma, le pone base de datos Postgres si hace falta, autentificación con Cursor y la publica con un enlace. Hay revisiones de seguridad antes de publicar; en planes de pago con cloud agents activados.",
+    importa: "Tú trabajas todo el día en Cursor y con Grok Bot: ahora puedes pedir una herramienta interna (tablero, portal, formulario) y compartirla con un link sin montar hosting a mano. Solo planes de pago con cloud agents.",
+    fuente: "https://cursor.com/changelog/build-live-apps"
+  },
+  {
     fecha: "2026-11-05",
     empresa: "Anthropic",
     titulo: "Claude Personal Finance: conecta tu banco y pregunta por tu dinero",
