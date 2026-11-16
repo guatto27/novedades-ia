@@ -11,9 +11,33 @@
    · fuente: enlace oficial, o "" si no hay.
    · El orden no importa: se acomodan solas por fecha (la más nueva primero).
    ════════════════════════════════════════════════════════════════ */
-const ACTUALIZADO = "2026-11-13";   // fecha de la última actualización (AAAA-MM-DD)
+const ACTUALIZADO = "2026-11-16";   // fecha de la última actualización (AAAA-MM-DD)
 
 const NOVEDADES = [
+  {
+    fecha: "2026-11-16",
+    empresa: "Alibaba",
+    titulo: "Qwen4-Max ya está disponible para todos por API",
+    resumen: "Alibaba sacó de vista previa a Qwen4-Max, su modelo más potente: lee texto, imágenes y video, maneja hasta 1 millón de tokens y ya se puede usar por API en QwenCloud a 1.50 dólares por millón de tokens de entrada y 4.50 de salida. No se puede descargar; solo se usa en la nube de Alibaba.",
+    importa: "Es más barato que Gemini 4 Hydrogen en respuestas y acepta el mismo formato de API que Claude y OpenAI, así que podrías probarlo en PIGOP sin reescribir mucho. Ojo: tus datos se procesarían en servidores de Alibaba, algo a cuidar con información de gobierno.",
+    fuente: "https://www.alibabacloud.com/blog/alibaba-unveils-qwen4-max-new-ai-teammate-for-work-creativity-and-discovery_603783"
+  },
+  {
+    fecha: "2026-11-13",
+    empresa: "Anthropic",
+    titulo: "Claude Code 2.1.325: arreglo de seguridad y más permisos en el sandbox",
+    resumen: "Anthropic publicó Claude Code 2.1.325, que corrige una falla de seguridad al leer respuestas comprimidas y arregla sesiones que se trababan o perdían mensajes. Además, los comandos que Claude corre dentro del sandbox ahora piden tu permiso como cualquier otro comando.",
+    importa: "Como usas Claude Code en PIGOP, conviene actualizar (con claude update) para tener el arreglo de seguridad. Si notas que te pide permiso más seguido, es por el nuevo ajuste del sandbox y se puede configurar.",
+    fuente: "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+  },
+  {
+    fecha: "2026-11-13",
+    empresa: "Google",
+    titulo: "Créditos gratis de Google Cloud para la API de Gemini, ahora dentro de AI Studio",
+    resumen: "Si pagas Google AI Pro o Ultra, ya puedes reclamar desde Google AI Studio los créditos mensuales de Google Cloud que vienen con tu plan y usarlos en la API de Gemini. Los créditos se acumulan mes a mes y duran 12 meses; se pide un prepago mínimo de 5 dólares.",
+    importa: "Si tienes Google AI Pro o Ultra, quizá ya tienes créditos acumulados sin usar que podrían cubrir el gasto de Gemini en PIGOP. Revisa en aistudio.google.com/billing cuánto tienes.",
+    fuente: "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/"
+  },
   {
     fecha: "2026-11-13",
     empresa: "DeepSeek",
